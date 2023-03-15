@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: testing
+  namespace: be
+  description: testing service for testing
+  tags:
+    - devops
+    - alerting
+    - tooling
+spec:
+  type: service
+  lifecycle: production
+  owner: devops
