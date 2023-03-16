@@ -1,10 +1,26 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: infra
-  description: infra
+  name: devops
+  description: devops
 spec:
-  type: department
-  # Intentional no profile for testing
-  parent: evermos
-  children: [devops, data, security]
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: devops@example.com
+    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
+  parent: backstage
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ariretiarno
+spec:
+  profile:
+    # Intentional no displayName for testing
+    email: ariretiarno@example.com
+    picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
+  memberOf: [devops]
+---
+

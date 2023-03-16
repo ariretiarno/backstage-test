@@ -11,18 +11,19 @@ metadata:
 spec:
   type: organization
   profile:
-    displayName: ACME Corp
+    displayName: Evermos
     email: info@example.com
     picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
-  children: [infrastructure]
+  children: [infra]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: example-groups
+  name: evermos-groups
   description: A collection of all Backstage example Groups
 spec:
   targets:
+    - ./infra-group.yaml
     - ./devops-group.yaml
     - ./boxoffice-group.yaml
     - ./backstage-group.yaml

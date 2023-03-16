@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: infra
+  description: infra
+spec:
+  type: department
+  # Intentional no profile for testing
+  parent: evermos
+  children: [devops, data, security]
