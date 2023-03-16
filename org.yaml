@@ -25,9 +25,3 @@ spec:
   targets:
     - ./infra-group.yaml
     - ./devops-group.yaml
-    - ./boxoffice-group.yaml
-    - ./backstage-group.yaml
-    - ./team-a-group.yaml
-    - ./team-b-group.yaml
-    - ./team-c-group.yaml
-    - ./team-d-group.yaml
