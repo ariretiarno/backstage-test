@@ -25,3 +25,4 @@ spec:
   targets:
     - ./infra-group.yaml
     - ./devops-group.yaml
+    - ./brandops-group.yaml
