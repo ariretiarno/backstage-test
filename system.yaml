@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: sistem-portal-evermos
+  description: Portal
+  tags:
+    - portal
+spec:
+  owner: brandops
+  domain: evermos
