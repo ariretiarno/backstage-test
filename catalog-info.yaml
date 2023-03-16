@@ -11,3 +11,4 @@ spec:
   type: service
   lifecycle: production
   owner: devops
+  subcomponentOf: evermos-be
